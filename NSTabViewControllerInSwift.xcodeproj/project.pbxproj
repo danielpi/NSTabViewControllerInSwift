@@ -8,18 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E615EE2F1ECE677100997971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E615EE2E1ECE677100997971 /* AppDelegate.swift */; };
-		E615EE311ECE677100997971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E615EE301ECE677100997971 /* ViewController.swift */; };
 		E615EE331ECE677100997971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E615EE321ECE677100997971 /* Assets.xcassets */; };
 		E615EE361ECE677100997971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E615EE341ECE677100997971 /* Main.storyboard */; };
+		E615EE3F1ECE7B6F00997971 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E615EE3D1ECE7B6F00997971 /* WindowController.swift */; };
+		E615EE421ECE7B8E00997971 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E615EE411ECE7B8E00997971 /* TabViewController.swift */; };
+		E615EE441ECE7BC200997971 /* ViewControllerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = E615EE431ECE7BC200997971 /* ViewControllerOne.swift */; };
+		E615EE471ECE7BD300997971 /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E615EE451ECE7BD300997971 /* ViewControllerTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E615EE2B1ECE677100997971 /* NSTabViewControllerInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTabViewControllerInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E615EE2E1ECE677100997971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E615EE301ECE677100997971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E615EE321ECE677100997971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E615EE351ECE677100997971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E615EE371ECE677100997971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E615EE3D1ECE7B6F00997971 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		E615EE411ECE7B8E00997971 /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabViewController.swift; path = ../TabViewController.swift; sourceTree = "<group>"; };
+		E615EE431ECE7BC200997971 /* ViewControllerOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerOne.swift; sourceTree = "<group>"; };
+		E615EE451ECE7BD300997971 /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				E615EE2E1ECE677100997971 /* AppDelegate.swift */,
-				E615EE301ECE677100997971 /* ViewController.swift */,
+				E615EE3D1ECE7B6F00997971 /* WindowController.swift */,
+				E615EE411ECE7B8E00997971 /* TabViewController.swift */,
+				E615EE431ECE7BC200997971 /* ViewControllerOne.swift */,
+				E615EE451ECE7BD300997971 /* ViewControllerTwo.swift */,
 				E615EE321ECE677100997971 /* Assets.xcassets */,
 				E615EE341ECE677100997971 /* Main.storyboard */,
 				E615EE371ECE677100997971 /* Info.plist */,
@@ -132,8 +141,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E615EE311ECE677100997971 /* ViewController.swift in Sources */,
+				E615EE471ECE7BD300997971 /* ViewControllerTwo.swift in Sources */,
+				E615EE421ECE7B8E00997971 /* TabViewController.swift in Sources */,
+				E615EE3F1ECE7B6F00997971 /* WindowController.swift in Sources */,
 				E615EE2F1ECE677100997971 /* AppDelegate.swift in Sources */,
+				E615EE441ECE7BC200997971 /* ViewControllerOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
