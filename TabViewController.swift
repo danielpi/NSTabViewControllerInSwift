@@ -13,6 +13,8 @@ class TabViewController: NSTabViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do view setup here.
+        
+        tabView.delegate = self
     }
     
 }

@@ -681,7 +681,7 @@
         <!--Tab View Controller-->
         <scene sceneID="BJd-xQ-XGh">
             <objects>
-                <tabViewController selectedTabViewItemIndex="0" id="Akw-YD-LPY" customClass="TabViewController" customModule="NSTabViewControllerInSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <tabViewController selectedTabViewItemIndex="0" tabStyle="unspecified" id="Akw-YD-LPY" customClass="TabViewController" customModule="NSTabViewControllerInSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <tabViewItems>
                         <tabViewItem label="This is one" identifier="" id="cFA-ZG-cZf"/>
                         <tabViewItem label="This is two" identifier="" id="QfY-WU-3Sq"/>
@@ -710,8 +710,8 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HW6-fn-6Ke">
-                                <rect key="frame" x="211" y="141" width="29" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="One" id="fdE-XW-J9t">
+                                <rect key="frame" x="134" y="141" width="182" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Press the space bar to toggle" id="fdE-XW-J9t">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
@@ -737,8 +737,8 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hce-ZV-0aK">
-                                <rect key="frame" x="211" y="141" width="29" height="17"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Two" id="DLD-wI-AfP">
+                                <rect key="frame" x="148" y="141" width="154" height="17"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="and again to toggle back" id="DLD-wI-AfP">
                                     <font key="font" metaFont="system"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
