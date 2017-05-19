@@ -6,7 +6,8 @@ A simple example of using a NSTabViewController in a Mac app (Sierra, Xcode 8.3,
 - In the main storyboard delete the ViewController that had been setup as the main content for the window.
 - Drag a tab view controller out and place it under the window object.
 - Control-Drag from the WindowController (not the window) to the TabViewController to create a relationship segue for the window content.
-![Image of the NSTabViewController being connected to the WindowController in IB](https://danielpi.github.com/NSTabViewControllerInSwift/images/Connecting window content.png)
+![Image of the NSTabViewController being connected to the WindowController in IB](https://raw.githubusercontent.com/danielpi/NSTabViewControllerInSwift/master/images/Connecting window content.png)
+
 - Add something to the two existing view controllers for the tab view items (I just added and centred two labels).
 - Change the tab labels. This can be done using the Label field in the Attributes Inspector. Note, you can double click on the word in the Tab and it will allow you to edit it. However this will not change the Label attribute. Not sure why you would want it to work that way???
 
